@@ -1,0 +1,6 @@
+.Nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0 15px; }
+  .Nav a {
+    margin: 15px 0 15px 15px; }
