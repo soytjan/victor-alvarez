@@ -1,4 +1,8 @@
+@import '../styling/mixins.scss';
+
 .Home {
+@include main-default;
+
   img {
     width: 860px;
   }

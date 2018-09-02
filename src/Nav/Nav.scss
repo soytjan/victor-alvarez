@@ -1,3 +1,5 @@
+@import '../styling/variables.scss';
+
 .Nav {
   display: flex;
   justify-content: flex-end;
@@ -7,6 +9,11 @@
   }
 
   a {
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 15px 20px;
+    padding-bottom: 2px;
+  }
+
+  a.active {
+    border-bottom: 1px solid $slate;
   }
 }

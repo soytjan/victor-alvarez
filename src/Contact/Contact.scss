@@ -1,0 +1,9 @@
+@import '../styling/mixins.scss';
+
+.Contact {
+  @include main-default;
+
+  .contact-info-cont {
+    padding: 20px 0;
+  }
+}

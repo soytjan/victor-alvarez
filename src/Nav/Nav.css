@@ -3,4 +3,7 @@
   justify-content: flex-end;
   padding: 10px 0 15px; }
   .Nav a {
-    margin: 15px 0 15px 15px; }
+    margin: 15px 0 15px 20px;
+    padding-bottom: 2px; }
+  .Nav a.active {
+    border-bottom: 1px solid #807F81; }
