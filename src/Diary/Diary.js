@@ -1,6 +1,8 @@
 import React from 'react';
 import './Diary.css';
 
+// TODO: need to delete this
+
 const Diary = () => {
   return (
     <div className='Diary'>

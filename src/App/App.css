@@ -1,26 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Work+Sans");
 body,
 html {
   height: 100%; }
 
 .App {
-  font-size: 16px;
-  padding: 0 290px; }
+  font-size: 14px;
+  padding: 0 12%;
+  height: 100%; }
   .App a {
     text-decoration: none;
     color: black;
-    font-size: 1.2em; }
+    font-size: 12px; }
   .App a:hover {
     color: #807F81; }
   .App h1,
   .App h2 {
     font-family: "EB Garamond", serif; }
   .App h1 {
-    font-size: 2.2em; }
+    font-size: 3em; }
   .App h2 {
     font-size: 1.6em; }
   .App p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Work Sans", sans-serif;
     line-height: 135%; }
   .App header {
-    padding: 20px 0; }
+    padding: 20px 0 5px; }

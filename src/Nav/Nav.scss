@@ -1,12 +1,10 @@
 @import '../styling/variables.scss';
 
 .Nav {
+  font-family: $body-font;
   display: flex;
   justify-content: flex-end;
-  padding: 10px 0 15px;
-
-  nav {
-  }
+  padding: 10px 0 0;
 
   a {
     margin: 15px 0 15px 20px;

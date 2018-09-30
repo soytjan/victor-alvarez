@@ -4,10 +4,14 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className='Contact'>
-      <h2>Contact</h2>
       <div className='contact-info-cont'>
-        <p>Give me yo phone number</p>
-        <p>Give me yo email</p>
+        <p>emailaddress@gmail.com</p>
+        {/* this needs to have some spacing */}
+        <div className='contact-box'>
+          <p>victor alvarez</p>
+          <p>Give me yo phone number</p>
+          <p>Give me yo email</p>
+        </div>
       </div>
     </div>
   )

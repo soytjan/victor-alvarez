@@ -1,4 +1,10 @@
 .Home {
-  padding: 20px 0 30px; }
+  padding: 0 0 20px; }
   .Home img {
-    width: 860px; }
+    width: 100%; }
+  .Home .coming-soon {
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: 100px;
+    top: 50%; }
