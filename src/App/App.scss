@@ -60,14 +60,10 @@ html {
   }
 }
 
-@media screen and (max-width: 2280px) {
-  .App {
-    padding: 0 14%;
-  }
-}
-
 @media screen and (max-width: 1520px) {
   .App {
+    padding: 0 14%;
+
     h1 {
       font-size: 3rem;
     }

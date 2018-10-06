@@ -37,15 +37,13 @@ html {
     .App nav a.active {
       border-bottom: 1px solid #807F81; }
 
-@media screen and (max-width: 2280px) {
-  .App {
-    padding: 0 14%; } }
-
 @media screen and (max-width: 1520px) {
-  .App h1 {
-    font-size: 3rem; }
-  .App nav a {
-    font-size: 16px; } }
+  .App {
+    padding: 0 14%; }
+    .App h1 {
+      font-size: 3rem; }
+    .App nav a {
+      font-size: 16px; } }
 
 @media screen and (max-width: 1300px) {
   .App {
