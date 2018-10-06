@@ -1,4 +1,7 @@
 .Contact {
-  padding: 20px 0 30px; }
-  .Contact .contact-info-cont {
-    padding: 20px 0; }
+  padding: 60px 0; }
+  .Contact a {
+    display: block; }
+  .Contact .contact-box {
+    margin-top: 30px;
+    line-height: 200%; }

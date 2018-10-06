@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Maitree|Work+Sans:200,400");
 .Home {
-  padding: 0 0 20px; }
+  padding: 0 0 20px;
+  position: relative;
+  height: 100%; }
   .Home img {
     width: 100%; }
   .Home .coming-soon {
+    color: #807F81;
+    font-size: 1.2rem;
     position: absolute;
+    left: -6rem;
+    top: calc(50% - 63px);
     -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    left: 100px;
-    top: 50%; }
+    transform: rotate(-90deg); }

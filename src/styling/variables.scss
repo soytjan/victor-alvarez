@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Maitree|Work+Sans:200,400');
 
 // FONTS
-$header-font: 'EB Garamond', serif;
+$header-font: 'Maitree', serif;
 $body-font: 'Work Sans', sans-serif;
 
+// FONT WEIGHTS
+$default: 400;
+$light: 200;
+
+// COLORS
 $slate: #807F81;

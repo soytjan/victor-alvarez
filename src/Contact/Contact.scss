@@ -1,9 +1,13 @@
-@import '../styling/mixins.scss';
-
 .Contact {
-  @include main-default;
+  padding: 60px 0;
 
-  .contact-info-cont {
-    padding: 20px 0;
+  a {
+    // margin-bottom: 10px;
+    display: block;
+  }
+
+  .contact-box {
+    margin-top: 30px;
+    line-height: 200%;
   }
 }

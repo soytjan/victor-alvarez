@@ -4,14 +4,12 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className='Contact'>
-      <div className='contact-info-cont'>
-        <p>emailaddress@gmail.com</p>
-        {/* this needs to have some spacing */}
-        <div className='contact-box'>
-          <p>victor alvarez</p>
-          <p>Give me yo phone number</p>
-          <p>Give me yo email</p>
-        </div>
+      <a href="mailto:info@victoralvarezstudio.com">info@victoralvarezstudio.com</a>
+      <div className='contact-box'>
+        <a href="https://www.instagram.com/victoralvarezstudio/"><i class="fab fa-instagram"></i> Victor Alvarez Studio</a>
+        <p>+34 606 868 575</p>
+        <p>Based in Madrid</p>
+        <p>Spain</p>
       </div>
     </div>
   )

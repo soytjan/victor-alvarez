@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Work+Sans");
+@import url("https://fonts.googleapis.com/css?family=Maitree|Work+Sans:200,400");
 body,
 html {
   height: 100%; }
@@ -10,14 +10,14 @@ html {
   .App a {
     text-decoration: none;
     color: black;
-    font-size: 12px; }
+    font-family: "Work Sans", sans-serif; }
   .App a:hover {
     color: #807F81; }
   .App h1,
   .App h2 {
-    font-family: "EB Garamond", serif; }
+    font-family: "Maitree", serif; }
   .App h1 {
-    font-size: 3em; }
+    font-size: 2.4em; }
   .App h2 {
     font-size: 1.6em; }
   .App p {
@@ -25,3 +25,18 @@ html {
     line-height: 135%; }
   .App header {
     padding: 20px 0 5px; }
+  .App nav {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 0; }
+    .App nav a {
+      margin: 0 0 0 22px;
+      padding-bottom: 2px;
+      font-size: 12px; }
+    .App nav a.active {
+      border-bottom: 1px solid #807F81; }
+
+@media screen and (max-width: 1200px) {
+  .App {
+    padding: 0 7%; } }

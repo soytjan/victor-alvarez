@@ -1,18 +1,24 @@
-@import '../styling/mixins.scss';
+@import '../styling/variables.scss';
 
 .Home {
   padding: 0 0 20px;
+  position: relative;
+  height: 100%;
 
   img {
     width: 100%;
   }
 
   // make this font-weight = thin, and make it a little bit bigger
+
   .coming-soon {
+    color: $slate;
+    font-size: 1.2rem;
+    // font-weight: $light;
     position: absolute;
+    left: -6rem;
+    top: calc(50% - 63px);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    left: 100px;
-    top: 50%;
   }
 }

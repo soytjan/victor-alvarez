@@ -13,7 +13,7 @@ html {
   a {
     text-decoration: none;
     color: black;
-    font-size: 12px;
+    font-family: $body-font;
   }
 
   a:hover {
@@ -26,7 +26,7 @@ html {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.4em;
   }
 
   h2 {
@@ -42,5 +42,26 @@ html {
     padding: 20px 0 5px;
   }
 
+  nav {
+    font-family: $body-font;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 0;
+  
+    a {
+      margin: 0 0 0 22px;
+      padding-bottom: 2px;
+      font-size: 12px;
+    }
+  
+    a.active {
+      border-bottom: 1px solid $slate;
+    }
+  }
 }
 
+@media screen and (max-width: 1200px) {
+  .App {
+    padding: 0 7%;
+  }
+}
