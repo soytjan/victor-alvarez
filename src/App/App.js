@@ -20,6 +20,7 @@ class App extends Component {
           <NavLink to='/contact'>
             CONTACT
           </NavLink>
+          <a href='https://www.instagram.com/victoralvarezstudio/'  target="_blank" rel='noopener'><i class="fab fa-instagram"></i> </a>
         </nav>
         <main>
           <Route exact path='/' component={Home} />

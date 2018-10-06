@@ -5,7 +5,7 @@ html {
 
 .App {
   font-size: 14px;
-  padding: 0 12%;
+  padding: 0 18%;
   height: 100%; }
   .App a {
     text-decoration: none;
@@ -17,7 +17,7 @@ html {
   .App h2 {
     font-family: "Maitree", serif; }
   .App h1 {
-    font-size: 2.4em; }
+    font-size: 3.5em; }
   .App h2 {
     font-size: 1.6em; }
   .App p {
@@ -33,10 +33,39 @@ html {
     .App nav a {
       margin: 0 0 0 22px;
       padding-bottom: 2px;
-      font-size: 12px; }
+      font-size: 18px; }
     .App nav a.active {
       border-bottom: 1px solid #807F81; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2280px) {
   .App {
-    padding: 0 7%; } }
+    padding: 0 14%; } }
+
+@media screen and (max-width: 1520px) {
+  .App h1 {
+    font-size: 3rem; }
+  .App nav a {
+    font-size: 16px; } }
+
+@media screen and (max-width: 1300px) {
+  .App {
+    padding: 0 12%; }
+    .App h1 {
+      font-size: 2.6rem; }
+    .App nav a {
+      font-size: 1rem; } }
+
+@media screen and (max-width: 920px) {
+  .App header {
+    padding: 35px 0 5px; } }
+
+@media screen and (max-width: 570px) {
+  .App {
+    padding: 0 8%; }
+    .App h1 {
+      font-size: 2rem; }
+    .App nav {
+      justify-content: flex-start;
+      padding: 10px 0; }
+      .App nav a {
+        margin: 0 22px 0 0; } }

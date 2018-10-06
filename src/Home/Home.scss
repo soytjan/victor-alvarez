@@ -13,12 +13,31 @@
 
   .coming-soon {
     color: $slate;
-    font-size: 1.2rem;
-    // font-weight: $light;
+    font-size: 1.6rem;
     position: absolute;
-    left: -6rem;
+    left: -8rem;
     top: calc(50% - 63px);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .Home {
+    .coming-soon {
+      font-size: 1.2rem;
+      left: -6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .Home {
+    .coming-soon {
+      transform: rotate(0deg);
+      position: relative;
+      text-align: center;
+      left: 0;
+    }
   }
 }

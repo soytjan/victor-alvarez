@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='Contact'>
       <a href="mailto:info@victoralvarezstudio.com">info@victoralvarezstudio.com</a>
       <div className='contact-box'>
-        <a href="https://www.instagram.com/victoralvarezstudio/"><i class="fab fa-instagram"></i> Victor Alvarez Studio</a>
+        <a href="https://www.instagram.com/victoralvarezstudio/" target="_blank" rel='noopener'>ig: @victoralvarezstudio</a>
         <p>+34 606 868 575</p>
         <p>Based in Madrid</p>
         <p>Spain</p>

@@ -1,7 +1,21 @@
 .Contact {
-  padding: 60px 0; }
+  font-size: 1.2rem;
+  padding: 180px 0; }
   .Contact a {
     display: block; }
   .Contact .contact-box {
     margin-top: 30px;
     line-height: 200%; }
+
+@media screen and (max-width: 1635px) {
+  .Contact {
+    padding: 100px 0; } }
+
+@media screen and (max-width: 1300px) {
+  .Contact {
+    padding: 80px 0;
+    font-size: 1.1rem; } }
+
+@media screen and (max-width: 570px) {
+  .Contact {
+    padding: 60px 0; } }

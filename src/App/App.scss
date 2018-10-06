@@ -7,7 +7,7 @@ html {
 
 .App {
   font-size: 14px;
-  padding: 0 12%;
+  padding: 0 18%;
   height: 100%;
 
   a {
@@ -26,7 +26,7 @@ html {
   }
 
   h1 {
-    font-size: 2.4em;
+    font-size: 3.5em;
   }
 
   h2 {
@@ -51,7 +51,7 @@ html {
     a {
       margin: 0 0 0 22px;
       padding-bottom: 2px;
-      font-size: 12px;
+      font-size: 18px;
     }
   
     a.active {
@@ -60,8 +60,65 @@ html {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2280px) {
   .App {
-    padding: 0 7%;
+    padding: 0 14%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .App {
+    h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .App {
+    padding: 0 12%;
+    
+    h1 {
+      font-size: 2.6rem;
+    }
+    
+    nav {
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .App {
+    header {
+      padding: 35px 0 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .App {
+    padding: 0 8%;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      justify-content: flex-start;
+      padding: 10px 0;
+      
+      a {
+        margin: 0 22px 0 0;
+      }
+    }
   }
 }
