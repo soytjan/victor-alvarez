@@ -14,13 +14,13 @@ class App extends Component {
           <NavLink to='/'><h1>Victor Alvarez</h1></NavLink>
         </header>
         <nav>
-          <a href='http://victoralvarezdiary.tumblr.com/' target="_blank" rel='noopener'>
+          <a href='http://victoralvarezdiary.tumblr.com/' target="_blank" rel="noopener noreferrer">
             DIARY
           </a>
           <NavLink to='/contact'>
             CONTACT
           </NavLink>
-          <a href='https://www.instagram.com/victoralvarezstudio/'  target="_blank" rel='noopener'><i class="fab fa-instagram"></i> </a>
+          <a href='https://www.instagram.com/victoralvarezstudio/'  target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> </a>
         </nav>
         <main>
           <Route exact path='/' component={Home} />
