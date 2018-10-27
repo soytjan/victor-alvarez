@@ -58,6 +58,15 @@ html {
       border-bottom: 1px solid $slate;
     }
   }
+
+  .header-link:hover {
+    color: black;
+  }
+
+  .hidden {
+    visibility: hidden;
+    height: 0;
+  }
 }
 
 @media screen and (max-width: 1520px) {
