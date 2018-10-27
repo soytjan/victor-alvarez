@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <NavLink to='/'><h1>Victor Alvarez</h1></NavLink>
+          <NavLink to='/' className='header-link'><h1>Victor Alvarez</h1></NavLink>
         </header>
         <nav>
           <a href='http://victoralvarezdiary.tumblr.com/' target="_blank" rel="noopener noreferrer">
@@ -25,6 +25,7 @@ class App extends Component {
         <main>
           <Route exact path='/' component={Home} />
           <Route exact path='/contact' component={Contact} />
+          <p className='hidden'>Victor Alvarez is a photographer based in Madrid.</p>
         </main>
         
       </div>
